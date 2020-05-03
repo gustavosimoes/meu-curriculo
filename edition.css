@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  background-color: rgb(204, 204, 204);
+  width: 100%;
+}
+
+header {
+  background-color: rgb(39, 41, 38);
+  height: 150px;
+  position: relative;
+  width: 100%;
+}
+h1 {
+  position: absolute;
+  display: inline;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  font-size: 250%;
+  color: rgb(204, 204, 204);
+}
+
+#foto1 {
+  position: absolute;
+  margin: 5px;
+  border-radius: 50%;
+  float: left;
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 10%;
+}
+
+.cabecalho {
+  transform: translate(-50%, -50%);
+}
+
+main {
+  padding: 2%;
+  height: 100vh;
+}
+
+section {
+  float: left;
+  padding: 0.4%;
+  border: #000 solid 2px;
+  width: 48%;
+  margin: 0;
+  margin-bottom: 2%;
+  display: table-cell;
+}
+
+.titulos {
+  text-align: center;
+  margin: 0;
+  padding: 0.4%;
+}
+
+.alt1 {
+  height: 15%;
+}
+
+.experiencias {
+  width: 99%;
+}
+
+.empregos {
+  width: 48%;
+}
+
+.alt2 {
+  height: 23%;
+}
+
+.botpb:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* visited link */
+.botpb:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* mouse over link */
+.botpb:hover {
+  text-decoration: underline;
+}
+
+/* selected link */
+.botpb:active {
+  color: #d16806;
+}
+
+footer {
+  height: 8vh;
+  position: fixed;
+  bottom: 0;
+  background: #000;
+  width: 100%;
+}
+
+.list {
+  margin: auto;
+  display: inline;
+  position: absolute;
+  top: 50%;
+}
+.rdp {
+  transform: translate(0%, -50%);
+  color: rgb(204, 204, 204);
+  list-style-position: inside;
+}
+
+.pin {
+  list-style-image: url("./Images/Icons/map.svg");
+}
+
+.phone {
+  list-style-image: url("./Images/Icons/phone.svg");
+}
+
+.mail {
+  list-style-image: url("./Images/Icons/email.svg");
+}
+
+.person {
+  list-style-image: url("./Images/Icons/person.svg");
+}
